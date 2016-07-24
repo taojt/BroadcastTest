@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent("com.example.taojt.broadcasttest.MY_BROADCAST");
                 sendBroadcast(intent);
+                sendOrderedBroadcast(intent, null);
             }
         });
     }
