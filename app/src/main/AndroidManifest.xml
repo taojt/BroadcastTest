@@ -23,6 +23,12 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
+        <receiver android:name=".MyBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.example.taojt.broadcasttest.MY_BROADCAST">
+                </action>
+            </intent-filter>
+        </receiver>
 
     </application>
 
